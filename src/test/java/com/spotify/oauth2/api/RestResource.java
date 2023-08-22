@@ -17,8 +17,8 @@ public class RestResource {
         return given(getRequestSpec()).
                 body(requestPlaylist).
                 auth().oauth2(token).
-               //header("Authorization", "Bearer " + token).
-                when().post(path).
+                //header("Authorization", "Bearer " + token).
+                        when().post(path).
                 then().spec(getResponseSpec()).
                 extract().
                 response();
@@ -28,7 +28,7 @@ public class RestResource {
         return given(getRequestSpec()).
                 auth().oauth2(token).
                 //header("Authorization", "Bearer " + token).
-                when().get(path).
+                        when().get(path).
                 then().spec(getResponseSpec()).
                 extract().
                 response();
@@ -38,14 +38,14 @@ public class RestResource {
         return given(getRequestSpec()).
                 auth().oauth2(token).
                 //header("Authorization", "Bearer " + token).
-                body(requestPlaylist).
+                        body(requestPlaylist).
                 when().put(path).
                 then().spec(getResponseSpec()).
                 extract().
                 response();
     }
 
-    public static Response postAccount(HashMap<String, String> formParams){
+    public static Response postAccount(HashMap<String, String> formParams) {
 
         return given(getAccountRequestSpec()).
                 formParams(formParams).

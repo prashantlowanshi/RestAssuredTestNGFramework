@@ -1,4 +1,5 @@
 C:\Users\prashantl\IdeaProjects\RestAssuredFramework\src\test\java\com\spotify\oauth2\pojo\ExternalUrls__1.java
+C:\Users\prashantl\IdeaProjects\RestAssuredFramework\src\test\java\com\spotify\oauth2\utils\FakerUtils.java
 C:\Users\prashantl\IdeaProjects\RestAssuredFramework\src\test\java\com\spotify\oauth2\pojo\Error.java
 C:\Users\prashantl\IdeaProjects\RestAssuredFramework\src\test\java\com\spotify\oauth2\pojo\Tracks.java
 C:\Users\prashantl\IdeaProjects\RestAssuredFramework\src\test\java\com\spotify\oauth2\utils\ConfigLoader.java
@@ -8,6 +9,8 @@ C:\Users\prashantl\IdeaProjects\RestAssuredFramework\src\test\java\com\spotify\o
 C:\Users\prashantl\IdeaProjects\RestAssuredFramework\src\test\java\com\spotify\oauth2\pojo\InnerError.java
 C:\Users\prashantl\IdeaProjects\RestAssuredFramework\src\test\java\com\spotify\oauth2\api\Route.java
 C:\Users\prashantl\IdeaProjects\RestAssuredFramework\src\test\java\com\spotify\oauth2\api\RestResource.java
+C:\Users\prashantl\IdeaProjects\RestAssuredFramework\src\test\java\com\spotify\oauth2\tests\BaseTest.java
+C:\Users\prashantl\IdeaProjects\RestAssuredFramework\src\test\java\com\spotify\oauth2\api\StatusCode.java
 C:\Users\prashantl\IdeaProjects\RestAssuredFramework\src\test\java\com\spotify\oauth2\pojo\Playlist.java
 C:\Users\prashantl\IdeaProjects\RestAssuredFramework\src\test\java\com\spotify\oauth2\pojo\ExternalUrls.java
 C:\Users\prashantl\IdeaProjects\RestAssuredFramework\src\test\java\com\spotify\oauth2\utils\DataLoader.java
