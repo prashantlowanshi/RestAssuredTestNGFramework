@@ -16,13 +16,14 @@ public class RestResource {
     public static Response post(String path, String token, Object requestPlaylist) {
         return given(getRequestSpec()).
                 body(requestPlaylist).
-                auth().oauth2(token).
-                //header("Authorization", "Bearer " + token).
+                //auth().oauth2(token).
+                header("Authorization", token).
                         when().post(path).
                 then().spec(getResponseSpec()).
                 extract().
                 response();
     }
+
 
     public static Response get(String path, String token) {
         return given(getRequestSpec()).

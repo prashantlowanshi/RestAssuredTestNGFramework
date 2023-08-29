@@ -6,4 +6,9 @@ public class Route {
     public static final String TOKEN = "/token";
     public static final String USERS = "/users";
     public static final String PLAYLISTS = "/playlists";
+
+    public static final String BASE_PATH_CIS = "/api";
+    public static final String BASE_SETTINGS = "/Settings";
+    public static final String BASE_SAVE = "/Save";
+
 }

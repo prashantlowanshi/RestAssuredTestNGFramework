@@ -20,6 +20,7 @@ public class TokenManager {
             if (access_token == null || Instant.now().isAfter(expiry_time)) {
                 System.out.println("Renewing token.....");
                 Response response = renewToken();
+                System.out.println("Renewing token.....");
                 access_token = response.path("access_token");
                 System.out.println("Access token is " + access_token);
                 int expiryDurationInSeconds = response.path("expires_in");
@@ -41,6 +42,7 @@ public class TokenManager {
         formParams.put("refresh_token", ConfigLoader.getInstance().getRefreshToken());
         formParams.put("grant_type", ConfigLoader.getInstance().getGrantType());
         Response response = RestResource.postAccount(formParams);
+        System.out.println("Inside reniew token");
         if (response.statusCode() != 200) {
             throw new RuntimeException("ABORT !!! Renew Token Failed");
         }

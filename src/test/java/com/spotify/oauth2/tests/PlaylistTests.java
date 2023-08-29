@@ -5,31 +5,26 @@ import com.spotify.oauth2.api.applicationApi.PlaylistApi;
 import com.spotify.oauth2.pojo.Error;
 import com.spotify.oauth2.pojo.Playlist;
 import com.spotify.oauth2.utils.DataLoader;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import io.qameta.allure.*;
-import io.restassured.RestAssured;
-import io.restassured.builder.RequestSpecBuilder;
-import io.restassured.builder.ResponseSpecBuilder;
-import io.restassured.filter.log.LogDetail;
-import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import io.restassured.specification.RequestSpecification;
-import io.restassured.specification.ResponseSpecification;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import static com.spotify.oauth2.api.SpecBuilder.getRequestSpec;
-import static com.spotify.oauth2.api.SpecBuilder.getResponseSpec;
 import static com.spotify.oauth2.utils.FakerUtils.generateDescription;
 import static com.spotify.oauth2.utils.FakerUtils.generateName;
-import static io.restassured.RestAssured.given;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
-
-// https://www.jsonschema2pojo.org/
 
 @Epic("Spotify Oauth 2.0")
 @Feature("Playlist API")
 public class PlaylistTests extends BaseTest {
+
+    public Playlist requestPlaylist;
+    public Response response;
+
+    public PlaylistTests(){}
 
     @Step
     public Playlist playlistBuilder(String name, String description, boolean _public) {
@@ -62,9 +57,38 @@ public class PlaylistTests extends BaseTest {
     @Issue("1234567")
     @Description("Here I am creating the playlist")
     @Test(description = "Should be able to create playlist")
+    @Story("Create a playlist story")
+    @Given("We have created the post body")
     public void ShouldBeAbleToCreatePlaylist() {
-        Playlist requestPlaylist = playlistBuilder(generateName(), generateDescription(), false);
-        Response response = PlaylistApi.post(requestPlaylist);
+        requestPlaylist = playlistBuilder(generateName(), generateDescription(), false);
+        response = PlaylistApi.post(requestPlaylist);
+        System.out.println("Build the body" + response);
+        assertStatusCode(response.statusCode(), StatusCode.CODE_201);
+        assertPlaylistEqual(response.as(Playlist.class), requestPlaylist);
+        System.out.println("Verified the status code");
+    }
+
+    @When("We get the response")
+    public void getTheResponseForPlaylist() {
+        System.out.println("response");
+    }
+
+    @Then("the values should match")
+    public void verifyTheAssertForPlaylist() {
+        System.out.println("assert");
+    }
+
+
+    @Story("Create a playlist story")
+    @Link("https://example.org")
+    @Link(name = "allure", type = "mylink")
+    @TmsLink("test-1")
+    @Issue("1234567")
+    @Description("Here I am creating the playlist")
+    @Test(description = "Should be able to create playlist")
+    public void ShouldBeAbleToCreatePlaylistWithValidDetails() {
+        requestPlaylist = playlistBuilder(generateName(), generateDescription(), false);
+        response = PlaylistApi.post(requestPlaylist);
         assertStatusCode(response.statusCode(), StatusCode.CODE_201);
         assertPlaylistEqual(response.as(Playlist.class), requestPlaylist);
     }

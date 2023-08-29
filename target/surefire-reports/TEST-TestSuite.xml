@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="19.782" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="10.796" tests="5" errors="0" skipped="0" failures="4">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\prashantl\IdeaProjects\RestAssuredFramework\target\test-classes;C:\Users\prashantl\IdeaProjects\RestAssuredFramework\target\classes;C:\Users\prashantl\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\prashantl\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\prashantl\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\prashantl\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\prashantl\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\prashantl\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\prashantl\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\prashantl\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\prashantl\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\prashantl\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\prashantl\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\prashantl\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\prashantl\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\prashantl\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\prashantl\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\prashantl\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\prashantl\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\prashantl\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\prashantl\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\prashantl\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\prashantl\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\prashantl\.m2\repository\io\rest-assured\json-schema-validator\5.3.0\json-schema-validator-5.3.0.jar;C:\Users\prashantl\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\prashantl\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\prashantl\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\prashantl\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\prashantl\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\prashantl\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\prashantl\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\prashantl\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\prashantl\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\prashantl\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\prashantl\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\prashantl\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\prashantl\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\prashantl\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\prashantl\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\prashantl\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\prashantl\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\prashantl\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\prashantl\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\prashantl\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;C:\Users\prashantl\.m2\repository\io\qameta\allure\allure-testng\2.23.0\allure-testng-2.23.0.jar;C:\Users\prashantl\.m2\repository\io\qameta\allure\allure-java-commons\2.23.0\allure-java-commons-2.23.0.jar;C:\Users\prashantl\.m2\repository\io\qameta\allure\allure-model\2.23.0\allure-model-2.23.0.jar;C:\Users\prashantl\.m2\repository\io\qameta\allure\allure-test-filter\2.23.0\allure-test-filter-2.23.0.jar;C:\Users\prashantl\.m2\repository\io\qameta\allure\allure-rest-assured\2.23.0\allure-rest-assured-2.23.0.jar;C:\Users\prashantl\.m2\repository\io\qameta\allure\allure-attachments\2.23.0\allure-attachments-2.23.0.jar;C:\Users\prashantl\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.1.2\maven-surefire-plugin-3.1.2.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.1.2\maven-surefire-common-3.1.2.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\surefire\surefire-api\3.1.2\surefire-api-3.1.2.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.1.2\surefire-logger-api-3.1.2.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.1.2\surefire-extensions-api-3.1.2.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\surefire\surefire-booter\3.1.2\surefire-booter-3.1.2.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.1.2\surefire-extensions-spi-3.1.2.jar;C:\Users\prashantl\.m2\repository\org\eclipse\aether\aether-util\1.0.0.v20140518\aether-util-1.0.0.v20140518.jar;C:\Users\prashantl\.m2\repository\org\eclipse\aether\aether-api\1.0.0.v20140518\aether-api-1.0.0.v20140518.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.1.1\maven-common-artifact-filters-3.1.1.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\maven-artifact\3.1.0\maven-artifact-3.1.0.jar;C:\Users\prashantl\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.10\plexus-utils-3.0.10.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\maven-core\3.1.0\maven-core-3.1.0.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\maven-settings\3.1.0\maven-settings-3.1.0.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\maven-settings-builder\3.1.0\maven-settings-builder-3.1.0.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\maven-repository-metadata\3.1.0\maven-repository-metadata-3.1.0.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\maven-model-builder\3.1.0\maven-model-builder-3.1.0.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\maven-aether-provider\3.1.0\maven-aether-provider-3.1.0.jar;C:\Users\prashantl\.m2\repository\org\eclipse\aether\aether-spi\0.9.0.M2\aether-spi-0.9.0.M2.jar;C:\Users\prashantl\.m2\repository\org\eclipse\aether\aether-impl\0.9.0.M2\aether-impl-0.9.0.M2.jar;C:\Users\prashantl\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.0.0.M2a\org.eclipse.sisu.plexus-0.0.0.M2a.jar;C:\Users\prashantl\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar;C:\Users\prashantl\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\prashantl\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\prashantl\.m2\repository\org\sonatype\sisu\sisu-guice\3.1.0\sisu-guice-3.1.0-no_aop.jar;C:\Users\prashantl\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\prashantl\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.0.0.M2a\org.eclipse.sisu.inject-0.0.0.M2a.jar;C:\Users\prashantl\.m2\repository\asm\asm\3.3.1\asm-3.3.1.jar;C:\Users\prashantl\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.16\plexus-interpolation-1.16.jar;C:\Users\prashantl\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.4.2\plexus-classworlds-2.4.2.jar;C:\Users\prashantl\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\prashantl\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\prashantl\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\maven-plugin-api\3.1.0\maven-plugin-api-3.1.0.jar;C:\Users\prashantl\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\prashantl\.m2\repository\org\codehaus\plexus\plexus-java\1.1.2\plexus-java-1.1.2.jar;C:\Users\prashantl\.m2\repository\org\ow2\asm\asm\9.4\asm-9.4.jar;C:\Users\prashantl\.m2\repository\com\thoughtworks\qdox\qdox\2.0.3\qdox-2.0.3.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.1.2\surefire-shared-utils-3.1.2.jar;C:\Users\prashantl\.m2\repository\org\aspectj\aspectjweaver\1.9.19\aspectjweaver-1.9.19.jar;C:\Users\prashantl\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\prashantl\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\prashantl\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\prashantl\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\prashantl\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="java.class.path" value="C:\Users\prashantl\IdeaProjects\RestAssuredFramework\target\test-classes;C:\Users\prashantl\IdeaProjects\RestAssuredFramework\target\classes;C:\Users\prashantl\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\prashantl\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\prashantl\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\prashantl\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\prashantl\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\prashantl\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\prashantl\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\prashantl\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\prashantl\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\prashantl\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\prashantl\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\prashantl\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\prashantl\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\prashantl\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\prashantl\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\prashantl\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\prashantl\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\prashantl\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\prashantl\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\prashantl\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\prashantl\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\prashantl\.m2\repository\io\rest-assured\json-schema-validator\5.3.0\json-schema-validator-5.3.0.jar;C:\Users\prashantl\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\prashantl\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\prashantl\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\prashantl\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\prashantl\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\prashantl\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\prashantl\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\prashantl\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\prashantl\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\prashantl\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\prashantl\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\prashantl\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\prashantl\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\prashantl\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\prashantl\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\prashantl\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\prashantl\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\prashantl\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\prashantl\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\prashantl\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;C:\Users\prashantl\.m2\repository\io\qameta\allure\allure-testng\2.23.0\allure-testng-2.23.0.jar;C:\Users\prashantl\.m2\repository\io\qameta\allure\allure-java-commons\2.23.0\allure-java-commons-2.23.0.jar;C:\Users\prashantl\.m2\repository\io\qameta\allure\allure-model\2.23.0\allure-model-2.23.0.jar;C:\Users\prashantl\.m2\repository\io\qameta\allure\allure-test-filter\2.23.0\allure-test-filter-2.23.0.jar;C:\Users\prashantl\.m2\repository\io\qameta\allure\allure-rest-assured\2.23.0\allure-rest-assured-2.23.0.jar;C:\Users\prashantl\.m2\repository\io\qameta\allure\allure-attachments\2.23.0\allure-attachments-2.23.0.jar;C:\Users\prashantl\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.1.2\maven-surefire-plugin-3.1.2.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.1.2\maven-surefire-common-3.1.2.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\surefire\surefire-api\3.1.2\surefire-api-3.1.2.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.1.2\surefire-logger-api-3.1.2.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.1.2\surefire-extensions-api-3.1.2.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\surefire\surefire-booter\3.1.2\surefire-booter-3.1.2.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.1.2\surefire-extensions-spi-3.1.2.jar;C:\Users\prashantl\.m2\repository\org\eclipse\aether\aether-util\1.0.0.v20140518\aether-util-1.0.0.v20140518.jar;C:\Users\prashantl\.m2\repository\org\eclipse\aether\aether-api\1.0.0.v20140518\aether-api-1.0.0.v20140518.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.1.1\maven-common-artifact-filters-3.1.1.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\maven-artifact\3.1.0\maven-artifact-3.1.0.jar;C:\Users\prashantl\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.10\plexus-utils-3.0.10.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\maven-core\3.1.0\maven-core-3.1.0.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\maven-settings\3.1.0\maven-settings-3.1.0.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\maven-settings-builder\3.1.0\maven-settings-builder-3.1.0.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\maven-repository-metadata\3.1.0\maven-repository-metadata-3.1.0.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\maven-model-builder\3.1.0\maven-model-builder-3.1.0.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\maven-aether-provider\3.1.0\maven-aether-provider-3.1.0.jar;C:\Users\prashantl\.m2\repository\org\eclipse\aether\aether-spi\0.9.0.M2\aether-spi-0.9.0.M2.jar;C:\Users\prashantl\.m2\repository\org\eclipse\aether\aether-impl\0.9.0.M2\aether-impl-0.9.0.M2.jar;C:\Users\prashantl\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.0.0.M2a\org.eclipse.sisu.plexus-0.0.0.M2a.jar;C:\Users\prashantl\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar;C:\Users\prashantl\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\prashantl\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\prashantl\.m2\repository\org\sonatype\sisu\sisu-guice\3.1.0\sisu-guice-3.1.0-no_aop.jar;C:\Users\prashantl\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\prashantl\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.0.0.M2a\org.eclipse.sisu.inject-0.0.0.M2a.jar;C:\Users\prashantl\.m2\repository\asm\asm\3.3.1\asm-3.3.1.jar;C:\Users\prashantl\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.16\plexus-interpolation-1.16.jar;C:\Users\prashantl\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.4.2\plexus-classworlds-2.4.2.jar;C:\Users\prashantl\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\prashantl\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\prashantl\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\maven-plugin-api\3.1.0\maven-plugin-api-3.1.0.jar;C:\Users\prashantl\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\prashantl\.m2\repository\org\codehaus\plexus\plexus-java\1.1.2\plexus-java-1.1.2.jar;C:\Users\prashantl\.m2\repository\org\ow2\asm\asm\9.4\asm-9.4.jar;C:\Users\prashantl\.m2\repository\com\thoughtworks\qdox\qdox\2.0.3\qdox-2.0.3.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.1.2\surefire-shared-utils-3.1.2.jar;C:\Users\prashantl\.m2\repository\org\aspectj\aspectjweaver\1.9.19\aspectjweaver-1.9.19.jar;C:\Users\prashantl\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\prashantl\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\prashantl\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\prashantl\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\prashantl\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\prashantl\.m2\repository\io\cucumber\cucumber-java\7.4.1\cucumber-java-7.4.1.jar;C:\Users\prashantl\.m2\repository\io\cucumber\cucumber-core\7.4.1\cucumber-core-7.4.1.jar;C:\Users\prashantl\.m2\repository\io\cucumber\cucumber-gherkin\7.4.1\cucumber-gherkin-7.4.1.jar;C:\Users\prashantl\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.4.1\cucumber-gherkin-messages-7.4.1.jar;C:\Users\prashantl\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\prashantl\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\prashantl\.m2\repository\io\cucumber\datatable\7.4.1\datatable-7.4.1.jar;C:\Users\prashantl\.m2\repository\io\cucumber\cucumber-plugin\7.4.1\cucumber-plugin-7.4.1.jar;C:\Users\prashantl\.m2\repository\io\cucumber\docstring\7.4.1\docstring-7.4.1.jar;C:\Users\prashantl\.m2\repository\io\cucumber\html-formatter\19.2.0\html-formatter-19.2.0.jar;C:\Users\prashantl\.m2\repository\io\cucumber\ci-environment\9.0.4\ci-environment-9.0.4.jar;C:\Users\prashantl\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\prashantl\.m2\repository\io\cucumber\cucumber-testng\7.2.3\cucumber-testng-7.2.3.jar;C:\Users\prashantl\.m2\repository\com\vimalselvam\cucumber-extentsreport\3.1.1\cucumber-extentsreport-3.1.1.jar;C:\Users\prashantl\.m2\repository\io\cucumber\gherkin\23.0.1\gherkin-23.0.1.jar;C:\Users\prashantl\.m2\repository\io\cucumber\messages\18.0.0\messages-18.0.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -17,9 +17,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.17\bin"/>
-    <property name="sun.java.command" value="C:\Users\prashantl\AppData\Local\Temp\surefire1762784293172147177\surefirebooter-20230822180718694_3.jar C:\Users\prashantl\AppData\Local\Temp\surefire1762784293172147177 2023-08-22T18-07-18_304-jvmRun1 surefire-20230822180718694_1tmp surefire_0-20230822180718694_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\prashantl\AppData\Local\Temp\surefire5623545677964666295\surefirebooter-20230824185547939_3.jar C:\Users\prashantl\AppData\Local\Temp\surefire5623545677964666295 2023-08-24T18-55-47_439-jvmRun1 surefire-20230824185547939_1tmp surefire_0-20230824185547939_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\prashantl\IdeaProjects\RestAssuredFramework\target\test-classes;C:\Users\prashantl\IdeaProjects\RestAssuredFramework\target\classes;C:\Users\prashantl\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\prashantl\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\prashantl\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\prashantl\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\prashantl\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\prashantl\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\prashantl\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\prashantl\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\prashantl\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\prashantl\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\prashantl\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\prashantl\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\prashantl\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\prashantl\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\prashantl\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\prashantl\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\prashantl\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\prashantl\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\prashantl\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\prashantl\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\prashantl\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\prashantl\.m2\repository\io\rest-assured\json-schema-validator\5.3.0\json-schema-validator-5.3.0.jar;C:\Users\prashantl\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\prashantl\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\prashantl\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\prashantl\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\prashantl\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\prashantl\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\prashantl\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\prashantl\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\prashantl\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\prashantl\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\prashantl\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\prashantl\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\prashantl\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\prashantl\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\prashantl\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\prashantl\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\prashantl\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\prashantl\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\prashantl\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\prashantl\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;C:\Users\prashantl\.m2\repository\io\qameta\allure\allure-testng\2.23.0\allure-testng-2.23.0.jar;C:\Users\prashantl\.m2\repository\io\qameta\allure\allure-java-commons\2.23.0\allure-java-commons-2.23.0.jar;C:\Users\prashantl\.m2\repository\io\qameta\allure\allure-model\2.23.0\allure-model-2.23.0.jar;C:\Users\prashantl\.m2\repository\io\qameta\allure\allure-test-filter\2.23.0\allure-test-filter-2.23.0.jar;C:\Users\prashantl\.m2\repository\io\qameta\allure\allure-rest-assured\2.23.0\allure-rest-assured-2.23.0.jar;C:\Users\prashantl\.m2\repository\io\qameta\allure\allure-attachments\2.23.0\allure-attachments-2.23.0.jar;C:\Users\prashantl\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.1.2\maven-surefire-plugin-3.1.2.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.1.2\maven-surefire-common-3.1.2.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\surefire\surefire-api\3.1.2\surefire-api-3.1.2.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.1.2\surefire-logger-api-3.1.2.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.1.2\surefire-extensions-api-3.1.2.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\surefire\surefire-booter\3.1.2\surefire-booter-3.1.2.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.1.2\surefire-extensions-spi-3.1.2.jar;C:\Users\prashantl\.m2\repository\org\eclipse\aether\aether-util\1.0.0.v20140518\aether-util-1.0.0.v20140518.jar;C:\Users\prashantl\.m2\repository\org\eclipse\aether\aether-api\1.0.0.v20140518\aether-api-1.0.0.v20140518.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.1.1\maven-common-artifact-filters-3.1.1.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\maven-artifact\3.1.0\maven-artifact-3.1.0.jar;C:\Users\prashantl\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.10\plexus-utils-3.0.10.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\maven-core\3.1.0\maven-core-3.1.0.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\maven-settings\3.1.0\maven-settings-3.1.0.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\maven-settings-builder\3.1.0\maven-settings-builder-3.1.0.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\maven-repository-metadata\3.1.0\maven-repository-metadata-3.1.0.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\maven-model-builder\3.1.0\maven-model-builder-3.1.0.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\maven-aether-provider\3.1.0\maven-aether-provider-3.1.0.jar;C:\Users\prashantl\.m2\repository\org\eclipse\aether\aether-spi\0.9.0.M2\aether-spi-0.9.0.M2.jar;C:\Users\prashantl\.m2\repository\org\eclipse\aether\aether-impl\0.9.0.M2\aether-impl-0.9.0.M2.jar;C:\Users\prashantl\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.0.0.M2a\org.eclipse.sisu.plexus-0.0.0.M2a.jar;C:\Users\prashantl\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar;C:\Users\prashantl\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\prashantl\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\prashantl\.m2\repository\org\sonatype\sisu\sisu-guice\3.1.0\sisu-guice-3.1.0-no_aop.jar;C:\Users\prashantl\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\prashantl\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.0.0.M2a\org.eclipse.sisu.inject-0.0.0.M2a.jar;C:\Users\prashantl\.m2\repository\asm\asm\3.3.1\asm-3.3.1.jar;C:\Users\prashantl\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.16\plexus-interpolation-1.16.jar;C:\Users\prashantl\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.4.2\plexus-classworlds-2.4.2.jar;C:\Users\prashantl\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\prashantl\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\prashantl\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\maven-plugin-api\3.1.0\maven-plugin-api-3.1.0.jar;C:\Users\prashantl\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\prashantl\.m2\repository\org\codehaus\plexus\plexus-java\1.1.2\plexus-java-1.1.2.jar;C:\Users\prashantl\.m2\repository\org\ow2\asm\asm\9.4\asm-9.4.jar;C:\Users\prashantl\.m2\repository\com\thoughtworks\qdox\qdox\2.0.3\qdox-2.0.3.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.1.2\surefire-shared-utils-3.1.2.jar;C:\Users\prashantl\.m2\repository\org\aspectj\aspectjweaver\1.9.19\aspectjweaver-1.9.19.jar;C:\Users\prashantl\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\prashantl\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\prashantl\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\prashantl\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\prashantl\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\prashantl\IdeaProjects\RestAssuredFramework\target\test-classes;C:\Users\prashantl\IdeaProjects\RestAssuredFramework\target\classes;C:\Users\prashantl\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\prashantl\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\prashantl\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\prashantl\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\prashantl\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\prashantl\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\prashantl\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\prashantl\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\prashantl\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\prashantl\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\prashantl\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\prashantl\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\prashantl\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\prashantl\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\prashantl\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\prashantl\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\prashantl\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\prashantl\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\prashantl\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\prashantl\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\prashantl\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\prashantl\.m2\repository\io\rest-assured\json-schema-validator\5.3.0\json-schema-validator-5.3.0.jar;C:\Users\prashantl\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\prashantl\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\prashantl\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\prashantl\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\prashantl\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\prashantl\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\prashantl\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\prashantl\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\prashantl\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\prashantl\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\prashantl\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\prashantl\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\prashantl\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\prashantl\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\prashantl\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\prashantl\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\prashantl\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\prashantl\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\prashantl\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\prashantl\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;C:\Users\prashantl\.m2\repository\io\qameta\allure\allure-testng\2.23.0\allure-testng-2.23.0.jar;C:\Users\prashantl\.m2\repository\io\qameta\allure\allure-java-commons\2.23.0\allure-java-commons-2.23.0.jar;C:\Users\prashantl\.m2\repository\io\qameta\allure\allure-model\2.23.0\allure-model-2.23.0.jar;C:\Users\prashantl\.m2\repository\io\qameta\allure\allure-test-filter\2.23.0\allure-test-filter-2.23.0.jar;C:\Users\prashantl\.m2\repository\io\qameta\allure\allure-rest-assured\2.23.0\allure-rest-assured-2.23.0.jar;C:\Users\prashantl\.m2\repository\io\qameta\allure\allure-attachments\2.23.0\allure-attachments-2.23.0.jar;C:\Users\prashantl\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.1.2\maven-surefire-plugin-3.1.2.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.1.2\maven-surefire-common-3.1.2.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\surefire\surefire-api\3.1.2\surefire-api-3.1.2.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.1.2\surefire-logger-api-3.1.2.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.1.2\surefire-extensions-api-3.1.2.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\surefire\surefire-booter\3.1.2\surefire-booter-3.1.2.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.1.2\surefire-extensions-spi-3.1.2.jar;C:\Users\prashantl\.m2\repository\org\eclipse\aether\aether-util\1.0.0.v20140518\aether-util-1.0.0.v20140518.jar;C:\Users\prashantl\.m2\repository\org\eclipse\aether\aether-api\1.0.0.v20140518\aether-api-1.0.0.v20140518.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.1.1\maven-common-artifact-filters-3.1.1.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\maven-artifact\3.1.0\maven-artifact-3.1.0.jar;C:\Users\prashantl\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.10\plexus-utils-3.0.10.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\maven-core\3.1.0\maven-core-3.1.0.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\maven-settings\3.1.0\maven-settings-3.1.0.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\maven-settings-builder\3.1.0\maven-settings-builder-3.1.0.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\maven-repository-metadata\3.1.0\maven-repository-metadata-3.1.0.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\maven-model-builder\3.1.0\maven-model-builder-3.1.0.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\maven-aether-provider\3.1.0\maven-aether-provider-3.1.0.jar;C:\Users\prashantl\.m2\repository\org\eclipse\aether\aether-spi\0.9.0.M2\aether-spi-0.9.0.M2.jar;C:\Users\prashantl\.m2\repository\org\eclipse\aether\aether-impl\0.9.0.M2\aether-impl-0.9.0.M2.jar;C:\Users\prashantl\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.0.0.M2a\org.eclipse.sisu.plexus-0.0.0.M2a.jar;C:\Users\prashantl\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar;C:\Users\prashantl\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\prashantl\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\prashantl\.m2\repository\org\sonatype\sisu\sisu-guice\3.1.0\sisu-guice-3.1.0-no_aop.jar;C:\Users\prashantl\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\prashantl\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.0.0.M2a\org.eclipse.sisu.inject-0.0.0.M2a.jar;C:\Users\prashantl\.m2\repository\asm\asm\3.3.1\asm-3.3.1.jar;C:\Users\prashantl\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.16\plexus-interpolation-1.16.jar;C:\Users\prashantl\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.4.2\plexus-classworlds-2.4.2.jar;C:\Users\prashantl\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\prashantl\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\prashantl\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\maven-plugin-api\3.1.0\maven-plugin-api-3.1.0.jar;C:\Users\prashantl\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\prashantl\.m2\repository\org\codehaus\plexus\plexus-java\1.1.2\plexus-java-1.1.2.jar;C:\Users\prashantl\.m2\repository\org\ow2\asm\asm\9.4\asm-9.4.jar;C:\Users\prashantl\.m2\repository\com\thoughtworks\qdox\qdox\2.0.3\qdox-2.0.3.jar;C:\Users\prashantl\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.1.2\surefire-shared-utils-3.1.2.jar;C:\Users\prashantl\.m2\repository\org\aspectj\aspectjweaver\1.9.19\aspectjweaver-1.9.19.jar;C:\Users\prashantl\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\prashantl\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\prashantl\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\prashantl\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\prashantl\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\prashantl\.m2\repository\io\cucumber\cucumber-java\7.4.1\cucumber-java-7.4.1.jar;C:\Users\prashantl\.m2\repository\io\cucumber\cucumber-core\7.4.1\cucumber-core-7.4.1.jar;C:\Users\prashantl\.m2\repository\io\cucumber\cucumber-gherkin\7.4.1\cucumber-gherkin-7.4.1.jar;C:\Users\prashantl\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.4.1\cucumber-gherkin-messages-7.4.1.jar;C:\Users\prashantl\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\prashantl\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\prashantl\.m2\repository\io\cucumber\datatable\7.4.1\datatable-7.4.1.jar;C:\Users\prashantl\.m2\repository\io\cucumber\cucumber-plugin\7.4.1\cucumber-plugin-7.4.1.jar;C:\Users\prashantl\.m2\repository\io\cucumber\docstring\7.4.1\docstring-7.4.1.jar;C:\Users\prashantl\.m2\repository\io\cucumber\html-formatter\19.2.0\html-formatter-19.2.0.jar;C:\Users\prashantl\.m2\repository\io\cucumber\ci-environment\9.0.4\ci-environment-9.0.4.jar;C:\Users\prashantl\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\prashantl\.m2\repository\io\cucumber\cucumber-testng\7.2.3\cucumber-testng-7.2.3.jar;C:\Users\prashantl\.m2\repository\com\vimalselvam\cucumber-extentsreport\3.1.1\cucumber-extentsreport-3.1.1.jar;C:\Users\prashantl\.m2\repository\io\cucumber\gherkin\23.0.1\gherkin-23.0.1.jar;C:\Users\prashantl\.m2\repository\io\cucumber\messages\18.0.0\messages-18.0.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\prashantl"/>
     <property name="user.language" value="en"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\prashantl\AppData\Local\Temp\surefire1762784293172147177\surefirebooter-20230822180718694_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\prashantl\AppData\Local\Temp\surefire5623545677964666295\surefirebooter-20230824185547939_3.jar"/>
     <property name="user.script" value=""/>
     <property name="BASE_URI" value="https://api.spotify.com"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -55,130 +55,332 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Common Files\Intuit\QBPOSSDKRuntime;%JAVA_HOME%\bin;C:\Users\prashantl\Downloads\Script_Backup;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Apache\apache-maven-3.9.0\bin;C:\Program Files\Git\cmd;C:\Users\prashantl\scoop\shims;C:\Program Files\Java\jdk-11.0.17\bin;C:\Program Files (x86)\Sophos\Sophos SSL VPN Client\bin;C:\Users\prashantl\AppData\Local\Microsoft\WindowsApps;C:\Users\prashantl\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\prashantl\AppData\Roaming\npm;C:\Users\prashantl\.dotnet\tools;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Common Files\Intuit\QBPOSSDKRuntime;%JAVA_HOME%\bin;C:\Users\prashantl\Downloads\Script_Backup;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Apache\apache-maven-3.9.0\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Users\prashantl\scoop\shims;C:\Program Files\Java\jdk-11.0.17\bin;C:\Program Files (x86)\Sophos\Sophos SSL VPN Client\bin;C:\Users\prashantl\AppData\Local\Microsoft\WindowsApps;C:\Users\prashantl\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\prashantl\AppData\Roaming\npm;C:\Users\prashantl\.dotnet\tools;;."/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vm.version" value="11.0.17+10-LTS-269"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="ShouldNotBeAbleToCreatePlaylistWithExpiredToken" classname="com.spotify.oauth2.tests.PlaylistTests" time="10.678">
+  <testcase name="ShouldBeAbleToCreatePlaylist" classname="com.spotify.oauth2.tests.PlaylistTests" time="0.486">
     <system-out><![CDATA[STARTING TEST : ShouldBeAbleToGetPlaylist
 STARTING TEST : ShouldNotBeAbleToCreatePlaylistWithName
 STARTING TEST : ShouldNotBeAbleToCreatePlaylistWithExpiredToken
 STARTING TEST : ShouldBeAbleToCreatePlaylist
 STARTING TEST : ShouldBeAbleToUpdatePlaylist
-THREAD ID : 23
-THREAD ID : 25
-THREAD ID : 24
-THREAD ID : 27
 THREAD ID : 26
+THREAD ID : 23
+THREAD ID : 24
+THREAD ID : 25
+THREAD ID : 27
 Renewing token.....
-Request method:	POST
-Request URI:	https://accounts.spotify.com/api/token
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	refresh_token=AQAHu-N1YHsT7nSXUd3_ghSN5gd3TpZVOkADGNRLIm4aNS92vWFS88v4uz2yHHt8JLIeB9zOxcZJZjv5zi-Ka5UjQSX73oX1z7-3NFKv5gq9lwpks-xuwi_yHv-IIGj45vk
-				grant_type=refresh_token
-				client_secret=9a4ca6727ae04420a8a8e37a8b0a469b
-				client_id=6458e437a5414d87a438e1cf7b8b2129
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-Request method:	POST
-Request URI:	https://accounts.spotify.com/api/token
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	refresh_token=AQAHu-N1YHsT7nSXUd3_ghSN5gd3TpZVOkADGNRLIm4aNS92vWFS88v4uz2yHHt8JLIeB9zOxcZJZjv5zi-Ka5UjQSX73oX1z7-3NFKv5gq9lwpks-xuwi_yHv-IIGj45vk
-				grant_type=refresh_token
-				client_secret=9a4ca6727ae04420a8a8e37a8b0a469b
-				client_id=6458e437a5414d87a438e1cf7b8b2129
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-Request method:	POST
-Request URI:	https://api.spotify.com/v1/users/31lq5fnzg5wzgjoqovue4yeqyh64/playlists
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "description": "Description JWfL U_h &&r# U #++w_+/#P#wXd#+2__ +_3E#kf##++u0+#",
-    "name": "Playlist P  _l ,r,_",
-    "public": false
-}
-HTTP/1.1 401 Unauthorized
-www-authenticate: Bearer realm="spotify", error="invalid_token", error_description="Invalid access token"
-access-control-allow-origin: *
-access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
-access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
-access-control-allow-credentials: true
-access-control-max-age: 604800
-content-type: application/json
-content-encoding: gzip
-strict-transport-security: max-age=31536000
-x-content-type-options: nosniff
-date: Tue, 22 Aug 2023 12:37:32 GMT
-server: envoy
-Via: HTTP/2 edgeproxy, 1.1 google
-Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
-Transfer-Encoding: chunked
-
-{
-    "error": {
-        "status": 401,
-        "message": "Invalid access token"
-    }
-}
-HTTP/1.1 200 OK
-date: Tue, 22 Aug 2023 12:37:33 GMT
-content-type: application/json
-vary: Accept-Encoding
-set-cookie: __Host-device_id=AQC_iSHCs7gdvQXWgD7Yz7Kti2-FlIRRKExiq3pSnSOeT0ZjxbHKdyde225gS7wyiM1Op4HnQ-UBs16vrqT445uU7FgMTLR2g_g;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
-set-cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
-sp-trace-id: 372998bbfb4f9773
-content-encoding: gzip
-x-envoy-upstream-service-time: 49
-server: envoy
-strict-transport-security: max-age=31536000
-x-content-type-options: nosniff
-Via: HTTP/2 edgeproxy, 1.1 google
-Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
-Transfer-Encoding: chunked
-
-{
-    "access_token": "BQDq20BFjOOwDxgBfvx_UcwingHKRgrExATwZuofwj3VnXtkBHOmljQhNe9l0pF_s0bNL32agBfT2kgOOgxEqcJad2tG4fm5xIkiArqnD0vhZVu8kRgK_tLXp1WCC4SVvDXAxG91IGVBGsxCuDOGp6r0Ra6vute0sEeTTii72-EKfw7djrJKKIWJ1Ofw0t7ut3ucLdaofzZ47-tdrPOnFUCAGXxAe3HElAa7e_WO_qqEqU92NA3LXyDLYMLcELt9dam-plRyf7UkIT9D",
-    "token_type": "Bearer",
-    "expires_in": 3600,
-    "scope": "playlist-read-private playlist-read-collaborative playlist-modify-private playlist-modify-public"
-}
+This will all body
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="ShouldNotBeAbleToCreatePlaylistWithName" classname="com.spotify.oauth2.tests.PlaylistTests" time="15.973">
-    <system-out><![CDATA[Access token is BQDq20BFjOOwDxgBfvx_UcwingHKRgrExATwZuofwj3VnXtkBHOmljQhNe9l0pF_s0bNL32agBfT2kgOOgxEqcJad2tG4fm5xIkiArqnD0vhZVu8kRgK_tLXp1WCC4SVvDXAxG91IGVBGsxCuDOGp6r0Ra6vute0sEeTTii72-EKfw7djrJKKIWJ1Ofw0t7ut3ucLdaofzZ47-tdrPOnFUCAGXxAe3HElAa7e_WO_qqEqU92NA3LXyDLYMLcELt9dam-plRyf7UkIT9D
+  <testcase name="ShouldNotBeAbleToCreatePlaylistWithExpiredToken" classname="com.spotify.oauth2.tests.PlaylistTests" time="3.444">
+    <failure message="com.fasterxml.jackson.databind.Module: Provider com.fasterxml.jackson.datatype.jdk8.Jdk8Module not found" type="java.util.ServiceConfigurationError"><![CDATA[java.util.ServiceConfigurationError: com.fasterxml.jackson.databind.Module: Provider com.fasterxml.jackson.datatype.jdk8.Jdk8Module not found
+	at java.base/java.util.ServiceLoader.fail(ServiceLoader.java:589)
+	at java.base/java.util.ServiceLoader$LazyClassPathLookupIterator.nextProviderClass(ServiceLoader.java:1212)
+	at java.base/java.util.ServiceLoader$LazyClassPathLookupIterator.hasNextService(ServiceLoader.java:1221)
+	at java.base/java.util.ServiceLoader$LazyClassPathLookupIterator.hasNext(ServiceLoader.java:1265)
+	at java.base/java.util.ServiceLoader$2.hasNext(ServiceLoader.java:1300)
+	at java.base/java.util.ServiceLoader$3.hasNext(ServiceLoader.java:1385)
+	at com.fasterxml.jackson.databind.ObjectMapper.findModules(ObjectMapper.java:1131)
+	at com.fasterxml.jackson.databind.ObjectMapper.findModules(ObjectMapper.java:1115)
+	at com.fasterxml.jackson.databind.ObjectMapper.findAndRegisterModules(ObjectMapper.java:1165)
+	at io.restassured.path.json.mapper.factory.DefaultJackson2ObjectMapperFactory.create(DefaultJackson2ObjectMapperFactory.java:29)
+	at io.restassured.path.json.mapper.factory.DefaultJackson2ObjectMapperFactory.create(DefaultJackson2ObjectMapperFactory.java:27)
+	at io.restassured.common.mapper.factory.ObjectMapperFactory$create.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:148)
+	at io.restassured.internal.mapping.Jackson2Mapper.createJackson2ObjectMapper(Jackson2Mapper.groovy:44)
+	at io.restassured.internal.mapping.Jackson2Mapper.this$2$createJackson2ObjectMapper(Jackson2Mapper.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:194)
+	at io.restassured.internal.mapping.Jackson2Mapper.serialize(Jackson2Mapper.groovy:50)
+	at io.restassured.internal.mapping.Jackson2Mapper.serialize(Jackson2Mapper.groovy)
+	at io.restassured.mapper.ObjectMapper$serialize.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at io.restassured.internal.mapping.ObjectMapping.serializeWithJackson2(ObjectMapping.groovy:217)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite$StaticMetaMethodSiteNoUnwrapNoCoerce.invoke(StaticMetaMethodSite.java:153)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.callStatic(StaticMetaMethodSite.java:102)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:53)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240)
+	at io.restassured.internal.mapping.ObjectMapping.serialize(ObjectMapping.groovy:154)
+	at io.restassured.internal.mapping.ObjectMapping$serialize.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at io.restassured.internal.RequestSpecificationImpl.body(RequestSpecificationImpl.groovy:770)
+	at com.spotify.oauth2.api.RestResource.post(RestResource.java:18)
+	at com.spotify.oauth2.api.applicationApi.PlaylistApi.post(PlaylistApi.java:26)
+	at com.spotify.oauth2.tests.PlaylistTests.ShouldNotBeAbleToCreatePlaylistWithExpiredToken(PlaylistTests.java:122)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://accounts.spotify.com/api/token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	refresh_token=AQAHu-N1YHsT7nSXUd3_ghSN5gd3TpZVOkADGNRLIm4aNS92vWFS88v4uz2yHHt8JLIeB9zOxcZJZjv5zi-Ka5UjQSX73oX1z7-3NFKv5gq9lwpks-xuwi_yHv-IIGj45vk
+				grant_type=refresh_token
+				client_secret=9a4ca6727ae04420a8a8e37a8b0a469b
+				client_id=6458e437a5414d87a438e1cf7b8b2129
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://accounts.spotify.com/api/token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	refresh_token=AQAHu-N1YHsT7nSXUd3_ghSN5gd3TpZVOkADGNRLIm4aNS92vWFS88v4uz2yHHt8JLIeB9zOxcZJZjv5zi-Ka5UjQSX73oX1z7-3NFKv5gq9lwpks-xuwi_yHv-IIGj45vk
+				grant_type=refresh_token
+				client_secret=9a4ca6727ae04420a8a8e37a8b0a469b
+				client_id=6458e437a5414d87a438e1cf7b8b2129
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="ShouldNotBeAbleToCreatePlaylistWithName" classname="com.spotify.oauth2.tests.PlaylistTests" time="7.093">
+    <failure message="com.fasterxml.jackson.databind.Module: Provider com.fasterxml.jackson.datatype.jdk8.Jdk8Module not found" type="java.util.ServiceConfigurationError"><![CDATA[java.util.ServiceConfigurationError: com.fasterxml.jackson.databind.Module: Provider com.fasterxml.jackson.datatype.jdk8.Jdk8Module not found
+	at java.base/java.util.ServiceLoader.fail(ServiceLoader.java:589)
+	at java.base/java.util.ServiceLoader$LazyClassPathLookupIterator.nextProviderClass(ServiceLoader.java:1212)
+	at java.base/java.util.ServiceLoader$LazyClassPathLookupIterator.hasNextService(ServiceLoader.java:1221)
+	at java.base/java.util.ServiceLoader$LazyClassPathLookupIterator.hasNext(ServiceLoader.java:1265)
+	at java.base/java.util.ServiceLoader$2.hasNext(ServiceLoader.java:1300)
+	at java.base/java.util.ServiceLoader$3.hasNext(ServiceLoader.java:1385)
+	at com.fasterxml.jackson.databind.ObjectMapper.findModules(ObjectMapper.java:1131)
+	at com.fasterxml.jackson.databind.ObjectMapper.findModules(ObjectMapper.java:1115)
+	at com.fasterxml.jackson.databind.ObjectMapper.findAndRegisterModules(ObjectMapper.java:1165)
+	at io.restassured.path.json.mapper.factory.DefaultJackson2ObjectMapperFactory.create(DefaultJackson2ObjectMapperFactory.java:29)
+	at io.restassured.path.json.mapper.factory.DefaultJackson2ObjectMapperFactory.create(DefaultJackson2ObjectMapperFactory.java:27)
+	at io.restassured.common.mapper.factory.ObjectMapperFactory$create.call(Unknown Source)
+	at io.restassured.internal.mapping.Jackson2Mapper.createJackson2ObjectMapper(Jackson2Mapper.groovy:44)
+	at io.restassured.internal.mapping.Jackson2Mapper.this$2$createJackson2ObjectMapper(Jackson2Mapper.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:194)
+	at io.restassured.internal.mapping.Jackson2Mapper.serialize(Jackson2Mapper.groovy:50)
+	at io.restassured.internal.mapping.Jackson2Mapper.serialize(Jackson2Mapper.groovy)
+	at io.restassured.mapper.ObjectMapper$serialize.call(Unknown Source)
+	at io.restassured.internal.mapping.ObjectMapping.serializeWithJackson2(ObjectMapping.groovy:217)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite$StaticMetaMethodSiteNoUnwrapNoCoerce.invoke(StaticMetaMethodSite.java:153)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.callStatic(StaticMetaMethodSite.java:102)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240)
+	at io.restassured.internal.mapping.ObjectMapping.serialize(ObjectMapping.groovy:154)
+	at io.restassured.internal.mapping.ObjectMapping$serialize.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.body(RequestSpecificationImpl.groovy:770)
+	at com.spotify.oauth2.api.RestResource.post(RestResource.java:18)
+	at com.spotify.oauth2.api.applicationApi.PlaylistApi.post(PlaylistApi.java:22)
+	at com.spotify.oauth2.tests.PlaylistTests.ShouldNotBeAbleToCreatePlaylistWithName(PlaylistTests.java:113)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 200 OK
+date: Thu, 24 Aug 2023 13:25:57 GMT
+content-type: application/json
+vary: Accept-Encoding
+set-cookie: __Host-device_id=AQDK3yyhvEE_reVh9BXlayB6SD_2aoa7y5SdvFtnya3cQKtKUnekhjJhj2vkoaWfA1Ct3CHD2QCigWqsuSvtF0ZXsKTpRR5Mht8;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+set-cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
+sp-trace-id: ef50c9c133ba2660
+content-encoding: gzip
+x-envoy-upstream-service-time: 53
+server: envoy
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "access_token": "BQCWAsz8wYcyLSGXxspLmYb6Ic9T587J8FY28OeSyO_AkxzZ5-DYELy0QDilSa7DZ6XZoLVA97rA6_Vh0fTpacUYMagzk6IyxwGSCn5jW63zTJfwFQamTDm5AJduWDDtCXkmh4ENx7PtQBfSl6Usa1AXULXCmWvOMLtfEg2ZcKwgXRs0xg7ad0-dXwBsHX10gnKfOMet_vZziLC2Odpvhtc8uD-9zV-Azv3LbOlKSqwfRujXRNBfKCGTED0UdEDK6PwVntbsFKALsxuo",
+    "token_type": "Bearer",
+    "expires_in": 3600,
+    "scope": "playlist-read-private playlist-read-collaborative playlist-modify-private playlist-modify-public"
+}
+Access token is BQCWAsz8wYcyLSGXxspLmYb6Ic9T587J8FY28OeSyO_AkxzZ5-DYELy0QDilSa7DZ6XZoLVA97rA6_Vh0fTpacUYMagzk6IyxwGSCn5jW63zTJfwFQamTDm5AJduWDDtCXkmh4ENx7PtQBfSl6Usa1AXULXCmWvOMLtfEg2ZcKwgXRs0xg7ad0-dXwBsHX10gnKfOMet_vZziLC2Odpvhtc8uD-9zV-Azv3LbOlKSqwfRujXRNBfKCGTED0UdEDK6PwVntbsFKALsxuo
 expiryDurationInSeconds is 3600
 Token is good to use
 Token is good to use
-Token is good to use
-Request method:	GET
+]]></system-out>
+  </testcase>
+  <testcase name="ShouldBeAbleToUpdatePlaylist" classname="com.spotify.oauth2.tests.PlaylistTests" time="7.102">
+    <failure message="com.fasterxml.jackson.databind.Module: Provider com.fasterxml.jackson.datatype.jdk8.Jdk8Module not found" type="java.util.ServiceConfigurationError"><![CDATA[java.util.ServiceConfigurationError: com.fasterxml.jackson.databind.Module: Provider com.fasterxml.jackson.datatype.jdk8.Jdk8Module not found
+	at java.base/java.util.ServiceLoader.fail(ServiceLoader.java:589)
+	at java.base/java.util.ServiceLoader$LazyClassPathLookupIterator.nextProviderClass(ServiceLoader.java:1212)
+	at java.base/java.util.ServiceLoader$LazyClassPathLookupIterator.hasNextService(ServiceLoader.java:1221)
+	at java.base/java.util.ServiceLoader$LazyClassPathLookupIterator.hasNext(ServiceLoader.java:1265)
+	at java.base/java.util.ServiceLoader$2.hasNext(ServiceLoader.java:1300)
+	at java.base/java.util.ServiceLoader$3.hasNext(ServiceLoader.java:1385)
+	at com.fasterxml.jackson.databind.ObjectMapper.findModules(ObjectMapper.java:1131)
+	at com.fasterxml.jackson.databind.ObjectMapper.findModules(ObjectMapper.java:1115)
+	at com.fasterxml.jackson.databind.ObjectMapper.findAndRegisterModules(ObjectMapper.java:1165)
+	at io.restassured.path.json.mapper.factory.DefaultJackson2ObjectMapperFactory.create(DefaultJackson2ObjectMapperFactory.java:29)
+	at io.restassured.path.json.mapper.factory.DefaultJackson2ObjectMapperFactory.create(DefaultJackson2ObjectMapperFactory.java:27)
+	at io.restassured.common.mapper.factory.ObjectMapperFactory$create.call(Unknown Source)
+	at io.restassured.internal.mapping.Jackson2Mapper.createJackson2ObjectMapper(Jackson2Mapper.groovy:44)
+	at io.restassured.internal.mapping.Jackson2Mapper.this$2$createJackson2ObjectMapper(Jackson2Mapper.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:194)
+	at io.restassured.internal.mapping.Jackson2Mapper.serialize(Jackson2Mapper.groovy:50)
+	at io.restassured.internal.mapping.Jackson2Mapper.serialize(Jackson2Mapper.groovy)
+	at io.restassured.mapper.ObjectMapper$serialize.call(Unknown Source)
+	at io.restassured.internal.mapping.ObjectMapping.serializeWithJackson2(ObjectMapping.groovy:217)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite$StaticMetaMethodSiteNoUnwrapNoCoerce.invoke(StaticMetaMethodSite.java:153)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.callStatic(StaticMetaMethodSite.java:102)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240)
+	at io.restassured.internal.mapping.ObjectMapping.serialize(ObjectMapping.groovy:154)
+	at io.restassured.internal.mapping.ObjectMapping$serialize.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.body(RequestSpecificationImpl.groovy:770)
+	at com.spotify.oauth2.api.RestResource.update(RestResource.java:41)
+	at com.spotify.oauth2.api.applicationApi.PlaylistApi.update(PlaylistApi.java:34)
+	at com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToUpdatePlaylist(PlaylistTests.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+]]></failure>
+  </testcase>
+  <testcase name="ShouldBeAbleToGetPlaylist" classname="com.spotify.oauth2.tests.PlaylistTests" time="7.59">
+    <failure message="com.fasterxml.jackson.databind.Module: Provider com.fasterxml.jackson.datatype.jdk8.Jdk8Module not found" type="java.util.ServiceConfigurationError"><![CDATA[java.util.ServiceConfigurationError: com.fasterxml.jackson.databind.Module: Provider com.fasterxml.jackson.datatype.jdk8.Jdk8Module not found
+	at java.base/java.util.ServiceLoader.fail(ServiceLoader.java:589)
+	at java.base/java.util.ServiceLoader$LazyClassPathLookupIterator.nextProviderClass(ServiceLoader.java:1212)
+	at java.base/java.util.ServiceLoader$LazyClassPathLookupIterator.hasNextService(ServiceLoader.java:1221)
+	at java.base/java.util.ServiceLoader$LazyClassPathLookupIterator.hasNext(ServiceLoader.java:1265)
+	at java.base/java.util.ServiceLoader$2.hasNext(ServiceLoader.java:1300)
+	at java.base/java.util.ServiceLoader$3.hasNext(ServiceLoader.java:1385)
+	at com.fasterxml.jackson.databind.ObjectMapper.findModules(ObjectMapper.java:1131)
+	at com.fasterxml.jackson.databind.ObjectMapper.findModules(ObjectMapper.java:1115)
+	at com.fasterxml.jackson.databind.ObjectMapper.findAndRegisterModules(ObjectMapper.java:1165)
+	at io.restassured.path.json.mapper.factory.DefaultJackson2ObjectMapperFactory.create(DefaultJackson2ObjectMapperFactory.java:29)
+	at io.restassured.path.json.mapper.factory.DefaultJackson2ObjectMapperFactory.create(DefaultJackson2ObjectMapperFactory.java:27)
+	at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.createJackson2ObjectMapper(JsonPathJackson2ObjectDeserializer.java:18)
+	at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:25)
+	at io.restassured.path.json.mapping.JsonPathObjectDeserializer$deserialize.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at io.restassured.internal.mapping.Jackson2Mapper.deserialize(Jackson2Mapper.groovy:58)
+	at io.restassured.mapper.ObjectMapper$deserialize$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at io.restassured.internal.mapping.ObjectMapping.parseWithJackson2(ObjectMapping.groovy:254)
+	at io.restassured.internal.mapping.ObjectMapping$parseWithJackson2$1.callStatic(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:53)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240)
+	at io.restassured.internal.mapping.ObjectMapping.deserialize(ObjectMapping.groovy:56)
+	at io.restassured.internal.mapping.ObjectMapping$deserialize$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.as(RestAssuredResponseOptionsGroovyImpl.groovy:229)
+	at io.restassured.internal.RestAssuredResponseOptionsImpl.as(RestAssuredResponseOptionsImpl.java:169)
+	at com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToGetPlaylist(PlaylistTests.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+]]></failure>
+    <system-out><![CDATA[Request method:	GET
 Request URI:	https://api.spotify.com/v1/playlists/15wV9rgnoUCTzTIwqsdy1Z
 Proxy:			<none>
 Request params:	<none>
@@ -190,150 +392,7 @@ Headers:		Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
-Request method:	POST
-Request URI:	https://api.spotify.com/v1/users/31lq5fnzg5wzgjoqovue4yeqyh64/playlists
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "description": "Description #luTV- +d1 #kH+ b/_&##+_ K 1__2#&#g & 1_##__VE_&v_",
-    "name": "Playlist X f -ww F2",
-    "public": false
-}
-Request method:	POST
-Request URI:	https://api.spotify.com/v1/users/31lq5fnzg5wzgjoqovue4yeqyh64/playlists
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "description": "Description +Xh__+_0&&+8&&+#+60+&# /+&E_&jOh+#ih&-&G@b&#y/ D_e",
-    "name": "",
-    "public": false
-}
-Request method:	PUT
-Request URI:	https://api.spotify.com/v1/playlists/15wV9rgnoUCTzTIwqsdy1Z
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "description": "Updated playlist description",
-    "name": "Updated playlist name",
-    "public": false
-}
-HTTP/1.1 400 Bad Request
-content-type: application/json; charset=utf-8
-cache-control: private, max-age=0
-x-robots-tag: noindex, nofollow
-access-control-allow-origin: *
-access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
-access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
-access-control-allow-credentials: true
-access-control-max-age: 604800
-content-encoding: gzip
-strict-transport-security: max-age=31536000
-x-content-type-options: nosniff
-date: Tue, 22 Aug 2023 12:37:35 GMT
-server: envoy
-Via: HTTP/2 edgeproxy, 1.1 google
-Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
-Transfer-Encoding: chunked
-
-{
-    "error": {
-        "status": 400,
-        "message": "Missing required field: name"
-    }
-}
-]]></system-out>
-  </testcase>
-  <testcase name="ShouldBeAbleToCreatePlaylist" classname="com.spotify.oauth2.tests.PlaylistTests" time="16.518">
-    <system-out><![CDATA[HTTP/1.1 201 Created
-content-type: application/json; charset=utf-8
-cache-control: private, max-age=0
-location: https://api.spotify.com/v1/playlists/1x33Ek1NAP8W0MbLgeEhAH
-x-robots-tag: noindex, nofollow
-access-control-allow-origin: *
-access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
-access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
-access-control-allow-credentials: true
-access-control-max-age: 604800
-content-encoding: gzip
-strict-transport-security: max-age=31536000
-x-content-type-options: nosniff
-date: Tue, 22 Aug 2023 12:37:35 GMT
-server: envoy
-Via: HTTP/2 edgeproxy, 1.1 google
-Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
-Transfer-Encoding: chunked
-
-{
-    "collaborative": false,
-    "description": "Description #luTV- +d1 #kH+ b/_&##+_ K 1__2#&#g & 1_##__VE_&v_",
-    "external_urls": {
-        "spotify": "https://open.spotify.com/playlist/1x33Ek1NAP8W0MbLgeEhAH"
-    },
-    "followers": {
-        "href": null,
-        "total": 0
-    },
-    "href": "https://api.spotify.com/v1/playlists/1x33Ek1NAP8W0MbLgeEhAH",
-    "id": "1x33Ek1NAP8W0MbLgeEhAH",
-    "images": [
-        
-    ],
-    "name": "Playlist X f -ww F2",
-    "owner": {
-        "display_name": "Prashant lowanshi",
-        "external_urls": {
-            "spotify": "https://open.spotify.com/user/31lq5fnzg5wzgjoqovue4yeqyh64"
-        },
-        "href": "https://api.spotify.com/v1/users/31lq5fnzg5wzgjoqovue4yeqyh64",
-        "id": "31lq5fnzg5wzgjoqovue4yeqyh64",
-        "type": "user",
-        "uri": "spotify:user:31lq5fnzg5wzgjoqovue4yeqyh64"
-    },
-    "primary_color": null,
-    "public": false,
-    "snapshot_id": "MSxmMWE0Y2U2Y2Q4NGMxNzI2MGIyZGM0OWUwZjc1YTJiMjY5NmIwNDc5",
-    "tracks": {
-        "href": "https://api.spotify.com/v1/playlists/1x33Ek1NAP8W0MbLgeEhAH/tracks",
-        "items": [
-            
-        ],
-        "limit": 100,
-        "next": null,
-        "offset": 0,
-        "previous": null,
-        "total": 0
-    },
-    "type": "playlist",
-    "uri": "spotify:playlist:1x33Ek1NAP8W0MbLgeEhAH"
-}
-]]></system-out>
-  </testcase>
-  <testcase name="ShouldBeAbleToGetPlaylist" classname="com.spotify.oauth2.tests.PlaylistTests" time="17.19">
-    <system-out><![CDATA[HTTP/1.1 200 OK
+HTTP/1.1 200 OK
 content-type: application/json; charset=utf-8
 cache-control: public, max-age=0
 etag: "MC-ImI3ZTFlZGM2OGQ1N2JiMTRmMDU3ODVmZTNiODQxMzYzIg=="
@@ -346,7 +405,7 @@ access-control-max-age: 604800
 content-encoding: gzip
 strict-transport-security: max-age=31536000
 x-content-type-options: nosniff
-date: Tue, 22 Aug 2023 12:37:36 GMT
+date: Thu, 24 Aug 2023 13:25:59 GMT
 server: envoy
 Via: HTTP/2 edgeproxy, 1.1 google
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
@@ -395,24 +454,6 @@ Transfer-Encoding: chunked
     "type": "playlist",
     "uri": "spotify:playlist:15wV9rgnoUCTzTIwqsdy1Z"
 }
-]]></system-out>
-  </testcase>
-  <testcase name="ShouldBeAbleToUpdatePlaylist" classname="com.spotify.oauth2.tests.PlaylistTests" time="17.227">
-    <system-out><![CDATA[HTTP/1.1 200 OK
-cache-control: private, max-age=0
-x-robots-tag: noindex, nofollow
-access-control-allow-origin: *
-access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
-access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
-access-control-allow-credentials: true
-access-control-max-age: 604800
-Content-Length: 0
-strict-transport-security: max-age=31536000
-x-content-type-options: nosniff
-date: Tue, 22 Aug 2023 12:37:37 GMT
-server: envoy
-Via: HTTP/2 edgeproxy, 1.1 google
-Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
 ]]></system-out>
   </testcase>
 </testsuite>
